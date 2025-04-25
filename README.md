@@ -16,9 +16,10 @@ Run 'make' in the root directory to build both applications.
 
 ### Data Logger
 Run from the app/data_logger directory:
-
+./data_logger --channel --serial /dev/ttyUSB0 1000000
 
 ### Visual Logger
 Run from the app/visual_logger directory:
+./visual_logger --channel --serial /dev/ttyUSB0 1000000
 
 >>>>>>> 74002a2 (first commit)
